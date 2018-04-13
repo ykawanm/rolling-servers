@@ -4,10 +4,10 @@ const express = require('express');
 const os = require('os');
 
 // Constants
-const PORT = 8080;
+const PORT = 8000;
 const HOST = '0.0.0.0';
 const hostname = os.hostname();
-const color = GetEnvironmentVar('COLOR', 'silver');
+const color = GetEnvironmentVar('COLOR', '#B1C554');
 
 // App
 const app = express();
