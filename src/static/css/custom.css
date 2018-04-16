@@ -17,8 +17,8 @@ html, body {
     height: 30px;
 }
 .namu-logo-svg {
-/*     fill:skyblue; */
-    fill: limegreen;
+    fill:skyblue;
+/*     fill: limegreen; */
 }
 #caption {
     background-color: #252525;
