@@ -14,7 +14,7 @@ html, body {
 #namu-logo {
     /*float: left;*/
     position: absolute;
-    color: skyblue;
+    color: green;
     height: 30px;
     left: 10px;
 }
