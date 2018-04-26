@@ -12,9 +12,11 @@ html, body {
     text-align: center;
 }
 #namu-logo {
-    float: left;
+    /*float: left;*/
+    position: absolute;
     color: skyblue;
     height: 30px;
+    left: 10px;
 }
 .namu-logo-svg {
     fill: skyblue;
@@ -76,4 +78,10 @@ html, body {
 }
 #current-time {
     font-size: 15px;
+}
+#title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
