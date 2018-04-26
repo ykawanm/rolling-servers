@@ -14,12 +14,11 @@ html, body {
 #namu-logo {
     /*float: left;*/
     position: absolute;
-    color: skyblue;
     height: 30px;
     left: 10px;
 }
 .namu-logo-svg {
-    fill: green;
+    fill: limegreen;
 }
 #caption {
     background-color: #252525;
