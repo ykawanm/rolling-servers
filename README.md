@@ -9,7 +9,7 @@
 - リポジトリURL: github.com/sanghee911/rolling-servers.git
 - 以下のDockerfileを使用します。
 ```dockerfile
-FROM node:carbon
+FROM node:carbon-slim
 WORKDIR /usr/src/app
 COPY repo/src/package*.json ./
 RUN npm install
