@@ -7,12 +7,16 @@
 ## ビルド
 1. 左ペインより、「ビルド」をクリックします。「ビルド管理」画面で右上の「ビルド作成」をクリックします。
 2. 基本情報(ビルド名、説明、レジストリ名、イメージ名、バージョン)を入力します。
-3. ビルドの際に行う処理を「ビルドタスク」の欄の追加ボタンで追加します。
+3. ビルドの際に行う処理を「ビルドタスク」を追加ボタンで追加します。
 4. Githubからソースをダウンロードする場合は、タイプを「コードレポジトリ作業」で作成します。
-5. ジョブ名
-- リポジトリURL: github.com/sanghee911/rolling-servers.git
-- 以下のDockerfileを使用します。
+5. ジョブ名、レポジトリURL、ブランチ、コードの保存パスを入力し、作成します。
+- レポジトリURL: https://github.com/ykawanm/rolling-servers.git
+- ブランチ： master
+- コードの保存パス : repo
+6. 「ビルドタスク」を追加ボタンで「イメージビルド作業」を追加します。
+7. 以下のDockerfileを使用します。
 ```dockerfile
+
 FROM node:carbon-slim
 WORKDIR /usr/src/app
 COPY repo/src/package*.json ./
