@@ -57,7 +57,8 @@ CMD [ "node", "server" ]
 
 ## Tomcat-spring
 https://github.com/acornapps/tomcat-springmvc.git  
-- イメージ : adoptopenjdk/maven-openjdk11:latest
+- イメージ :   
+adoptopenjdk/maven-openjdk11:latest
 ```
 FROM tomcat:latest
 COPY app/target/ROOT.war /usr/local/tomcat/webapps/
