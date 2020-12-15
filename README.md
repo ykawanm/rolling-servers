@@ -54,3 +54,12 @@ CMD [ "node", "server" ]
 - ターゲットポート : 8000
 - サービスポート : 8000
 - ノードポート : 入力しない (30000-32767で任意のものが選ばれる)
+
+## Tomcat-spring
+https://github.com/acornapps/tomcat-springmvc
+- イメージ : adoptopenjdk/maven-openjdk11:latest
+```
+FROM tomcat:latest
+COPY app/target/ROOT.war /usr/local/tomcat/webapps/
+EXPOSE 8080
+```
