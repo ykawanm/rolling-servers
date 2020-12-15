@@ -56,7 +56,7 @@ CMD [ "node", "server" ]
 - ノードポート : 入力しない (30000-32767で任意のものが選ばれる)
 
 ## Tomcat-spring
-https://github.com/acornapps/tomcat-springmvc
+https://github.com/acornapps/tomcat-springmvc.git
 - イメージ : adoptopenjdk/maven-openjdk11:latest
 ```
 FROM tomcat:latest
