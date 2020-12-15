@@ -64,3 +64,12 @@ FROM tomcat:latest
 COPY app/target/ROOT.war /usr/local/tomcat/webapps/
 EXPOSE 8080
 ```
+
+## Postgre
+ENV POSTGRES_DB "poc_db"
+ENV POSTGRES_USER "poc_user"
+ENV POSTGRES_PASSWORD "poc_password"
+```
+FROM postgres:11.5
+EXPOSE 5432
+```
